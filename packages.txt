@@ -1,0 +1,6 @@
+gconf
+lib32-dbus-glib
+lib32-gtk2
+lib32-libgcrypt15
+lib32-libpng12
+lib32-libxml2
