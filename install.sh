@@ -7,8 +7,7 @@ err() {
 AUR_HELPER=
 if command -v paru >/dev/null; then
 	AUR_HELPER="paru"
-fi
-if command -v yay >/dev/null; then
+elif command -v yay >/dev/null; then
 	AUR_HELPER="yay"
 fi
 if [ -z "$AUR_HELPER" ]; then
